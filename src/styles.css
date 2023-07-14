@@ -1,0 +1,51 @@
+.App h1,
+h2,
+h4 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App .prose {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.callout {
+  padding: 8px 20px 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f4;
+  background: #fafafa;
+  margin: 1em 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.callout .content {
+  width: 100%;
+  flex: 1;
+}
+
+.callout .icon {
+  margin-right: 10px;
+  height: 14px;
+}
+
+.callout.info {
+  border-color: #b7e3fb;
+  background: #e7f0fe;
+}
+
+.callout.success {
+  border-color: #cdeece;
+  background: #eef6ee;
+}
+
+.callout.warning {
+  border-color: #ffecb3;
+  background: #fff2dc;
+}
+
+.callout .content > *:last-child,
+.callout .content > div > *:last-child {
+  margin: 1px 0;
+}
